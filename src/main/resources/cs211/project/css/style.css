@@ -1,0 +1,45 @@
+.text-fieldPadding{
+    -fx-padding: 3px 3px 3px 25px;
+}
+
+.shadowCurveBorder{
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+    -fx-border-color: transparent;
+    -fx-border-radius: 30;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 2, 4);
+}
+
+.shape{
+    -fx-background-color: #076A9F;
+    -fx-background-radius: 0 360 360 0;
+
+}
+
+.btn{
+    -fx-background-color: #FFF99F;
+
+}
+
+.btn:hover{
+    -fx-background-color: #FC7F66;
+    -fx-cursor: hand;
+}
+
+.hyperlinkColor{
+    -fx-text-fill: #000000;
+}
+.button-bar{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.button-bar:hover{
+    -fx-background-color: #1A90CF;
+}
+
+.button-menu{
+    -fx-background-color: transparent ;
+    -fx-cursor: hand;
+}
