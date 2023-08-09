@@ -19,6 +19,10 @@
 
 .btn{
     -fx-background-color: #FFF99F;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/develop
 }
 
 .btn:hover{
@@ -30,7 +34,11 @@
     -fx-text-fill: #000000;
 }
 .button-bar{
+<<<<<<< HEAD
     -fx-background-color: transparent ;
+=======
+    -fx-background-color: transparent;
+>>>>>>> origin/develop
     -fx-cursor: hand;
 }
 
