@@ -9,5 +9,8 @@
         <module name="cs211-661-project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cs211-661-project" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
