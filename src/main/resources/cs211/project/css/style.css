@@ -19,7 +19,14 @@
 
 .btn{
     -fx-background-color: #FFF99F;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/develop
+>>>>>>> b8275d1f8a183affceac6ffa07d7c17e0f62c5f9
 }
 
 .btn:hover{
@@ -31,7 +38,15 @@
     -fx-text-fill: #000000;
 }
 .button-bar{
+<<<<<<< HEAD
     -fx-background-color: transparent;
+=======
+<<<<<<< HEAD
+    -fx-background-color: transparent ;
+=======
+    -fx-background-color: transparent;
+>>>>>>> origin/develop
+>>>>>>> b8275d1f8a183affceac6ffa07d7c17e0f62c5f9
     -fx-cursor: hand;
 }
 
