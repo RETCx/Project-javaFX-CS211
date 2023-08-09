@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.SettingController">
+    <children>
+        <Circle fill="#fff99f" layoutX="81.0" layoutY="545.0" radius="86.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Circle fill="#fff99f" layoutX="259.0" layoutY="545.0" radius="86.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff99f" height="150.0" layoutX="66.0" layoutY="481.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="191.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff99f" height="150.0" layoutX="-5.0" layoutY="384.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
+        <Rectangle fill="#a9e1f0" height="390.0" layoutX="-5.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
+        <Rectangle fill="#fbfbfb" height="20.0" layoutX="-5.0" layoutY="459.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="350.0" />
+        <Circle fill="#232323" layoutX="170.0" layoutY="271.0" radius="100.0" stroke="#fbfbfb" strokeType="INSIDE" strokeWidth="5.0" />
+        <Label fx:id="nameLabel" layoutX="142.0" layoutY="393.0" text="Name" textFill="#232323">
+            <font>
+                <Font name="Corbel Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="usernameLabel" layoutX="127.0" layoutY="417.0" text="username" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="20.0" />
+            </font>
+        </Label>
+        <TextField layoutX="447.0" layoutY="209.0" prefHeight="40.0" prefWidth="200.0" promptText="Name" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font></TextField>
+        <TextField layoutX="677.0" layoutY="209.0" prefHeight="40.0" prefWidth="300.0" promptText="Email" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font></TextField>
+        <TextField layoutX="447.0" layoutY="279.0" prefHeight="40.0" prefWidth="200.0" promptText="Instagram" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font></TextField>
+        <TextField layoutX="677.0" layoutY="279.0" prefHeight="40.0" prefWidth="200.0" promptText="Twitter" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font></TextField>
+        <TextField layoutX="907.0" layoutY="279.0" prefHeight="40.0" prefWidth="200.0" promptText="Facebook" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font></TextField>
+        <PasswordField layoutX="447.0" layoutY="431.0" prefHeight="40.0" prefWidth="200.0" promptText="Previous Password" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </PasswordField>
+        <PasswordField layoutX="677.0" layoutY="431.0" prefHeight="40.0" prefWidth="200.0" promptText="New Password" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </PasswordField>
+        <PasswordField layoutX="907.0" layoutY="431.0" prefHeight="40.0" prefWidth="200.0" promptText="Confirm Password" styleClass="shadowCurveBorder" stylesheets="@../../../css/style.css">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </PasswordField>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff99f" height="60.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="124.0" />
+        <Ellipse fill="#fff99f" layoutX="117.0" layoutY="120.0" radiusX="30.0" radiusY="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <ImageView fitHeight="40.0" fitWidth="200.0" layoutX="13.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/Heart_corazón.svg.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="45.0" arcWidth="40.0" fill="#fbfbfb" height="40.0" layoutX="61.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" />
+        <Button layoutX="265.0" layoutY="90.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 60; -fx-background-color: fbfbfb;" />
+        <ImageView accessibleRole="BUTTON" fitHeight="50.0" fitWidth="200.0" layoutX="271.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/settings-icon-1964x2048-8nigtrtt.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="134.0" layoutY="500.0" text="Contact" textFill="#232323">
+            <font>
+                <Font name="Corbel Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="161.0" text="Contact Information" textFill="#232323">
+            <font>
+                <Font name="Corbel Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="447.0" layoutY="379.0" text="Change Password" textFill="#232323">
+            <font>
+                <Font name="Corbel Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="533.0" text="Instagram" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="554.0" text="Twitter" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="71.0" layoutY="573.0" text="Facebook">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="70.0" layoutY="593.0" text="Email" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="igLabel" layoutX="176.0" layoutY="533.0" text="Label" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="twitterLabel" layoutX="176.0" layoutY="554.0" text="Label" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="facebookLabel" layoutX="176.0" layoutY="573.0" text="Label" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="emailLabel" layoutX="176.0" layoutY="593.0" text="Label" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="likesLabel" layoutX="78.0" layoutY="108.0" text="Label" textFill="#232323">
+            <font>
+                <Font name="Corbel" size="20.0" />
+            </font>
+        </Label>
+        <Group layoutX="1137.0" layoutY="35.0" />
+        <Button layoutX="701.0" layoutY="530.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" stylesheets="@../../../css/style.css" text="update">
+            <font>
+                <Font name="Corbel" size="20.0" />
+            </font>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="shadowCurveBorder" />
+         </styleClass>
+        </Button>
+      <AnchorPane prefHeight="70.0" prefWidth="1280.0" style="-fx-background-color: #076A9F;">
+         <children>
+            <Button layoutX="234.0" mnemonicParsing="false" onAction="#goToHomeFromSetting" prefHeight="70.0" prefWidth="133.0" styleClass="button-bar" stylesheets="@../../../css/style.css" text="Home">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#fc7f66" height="56.0" layoutX="1112.0" layoutY="7.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeType="INSIDE" width="89.0" />
+            <Circle fill="#fc7f66" layoutX="1119.0" layoutY="35.0" radius="28.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="1096.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/user.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menuButton" layoutX="1140.0" layoutY="7.5" mnemonicParsing="false" onAction="#onMenuClickVisible" prefHeight="43.0" prefWidth="56.0" styleClass="button-menu" stylesheets="@../../../css/style.css">
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="menuButton1" layoutX="1140.0" layoutY="7.5" mnemonicParsing="false" onAction="#onMenuClickInvisible" prefHeight="43.0" prefWidth="56.0" styleClass="button-menu" stylesheets="@../../../css/style.css">
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="368.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="133.0" styleClass="button-bar" stylesheets="@../../../css/style.css" text="All Event">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="501.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="133.0" styleClass="button-bar" stylesheets="@../../../css/style.css" text="My Event">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="menuPane" layoutX="1045.0" layoutY="65.0" prefHeight="193.0" prefWidth="155.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="12.0" layoutY="12.0" mnemonicParsing="false" styleClass="button-menu" stylesheets="@../../../css/style.css" text="Profile">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="12.0" layoutY="84.0" mnemonicParsing="false" styleClass="button-menu" stylesheets="@../../../css/style.css" text="About us">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="12.0" layoutY="48.0" mnemonicParsing="false" styleClass="button-menu" stylesheets="@../../../css/style.css" text="Settings">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+            <Line endX="91.9112548828125" endY="-1.52587890625E-5" fill="#6b6b6b" layoutX="48.0" layoutY="136.0" startX="-32.9337158203125" startY="-1.52587890625E-5" stroke="#b9b9b9" />
+            <Button layoutX="12.0" layoutY="146.0" mnemonicParsing="false" onAction="#goToLogInFromSetting" styleClass="button-menu" stylesheets="@../../../css/style.css" text="Log out">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
