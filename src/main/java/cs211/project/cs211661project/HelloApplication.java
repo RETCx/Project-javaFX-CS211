@@ -10,14 +10,18 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         configRoute();
-
-        FXRouter.bind(this, stage, "CS211 661 Project");
-        FXRouter.goTo("hello");
+        FXRouter.bind(this, stage, "TravelBuddy");
+        FXRouter.goTo("login");
+        stage.setHeight(720);
+        stage.setWidth(1280);
     }
 
     private static void configRoute() {
         String resourcesPath = "cs211/project/views/";
-        FXRouter.when("hello", resourcesPath + "hello-view.fxml");
+        FXRouter.when("login", resourcesPath + "login.fxml");
+        FXRouter.when("register",resourcesPath + "register.fxml");
+        FXRouter.when("home",resourcesPath + "home.fxml");
+        FXRouter.when("setting",resourcesPath + "setting.fxml");
     }
 
 

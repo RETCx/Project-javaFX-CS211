@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.LoginController">
+   <children>
+      <AnchorPane layoutX="695.0" layoutY="1.0" style="-fx-background-color: #F5F5F5;" styleClass="background" stylesheets="@../css/style.css" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="695.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="1.0">
+         <children>
+            <Label layoutX="192.0" layoutY="185.0" prefWidth="174.0" text="Travel Buddy" AnchorPane.leftAnchor="192.0">
+               <font>
+                  <Font name="Corbel Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="200.0" layoutY="424.0" mnemonicParsing="false" onAction="#gotoHomeFromLogin" stylesheets="@../css/style.css" text="Log in" textAlignment="JUSTIFY" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="424.0">
+               <font>
+                  <Font name="Corbel Bold" size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="shadowCurveBorder" />
+               </styleClass>
+            </Button>
+            <TextField layoutX="105.0" layoutY="271.0" prefHeight="35.0" prefWidth="350.0" promptText="Username" styleClass="shadowCurveBorder" AnchorPane.leftAnchor="105.0">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="105.0" layoutY="342.0" prefHeight="35.0" prefWidth="350.0" promptText="Password" styleClass="shadowCurveBorder" stylesheets="@../css/style.css" AnchorPane.leftAnchor="105.0">
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </PasswordField>
+            <Hyperlink layoutX="224.0" layoutY="510.0" styleClass="hyperlinkColor" text="Forget password?" AnchorPane.topAnchor="510.0">
+               <font>
+                  <Font name="Corbel Bold" size="15.0" />
+               </font></Hyperlink>
+            <Label layoutX="184.0" layoutY="490.0" text="Don’t have an account?" AnchorPane.leftAnchor="184.0" AnchorPane.topAnchor="490.0">
+               <font>
+                  <Font name="Corbel" size="15.0" />
+               </font></Label>
+            <Hyperlink layoutX="332.0" layoutY="486.0" onAction="#gotoRegisterFromLogin" styleClass="hyperlinkColor" text="sign up" AnchorPane.topAnchor="486.0">
+               <font>
+                  <Font name="Corbel Bold" size="15.0" />
+               </font></Hyperlink>
+         </children>
+      </AnchorPane>
+      <VBox layoutX="156.0" layoutY="218.0" prefHeight="720.0" prefWidth="720.0" styleClass="shape" stylesheets="@../css/style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="170.0" top="210.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

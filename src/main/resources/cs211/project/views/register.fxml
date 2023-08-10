@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: f5f5f5;" styleClass="background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.RegisterController">
+    <children>
+        <AnchorPane layoutX="695.0" layoutY="1.0" prefHeight="636.0" prefWidth="499.0" style="-fx-background-color: f5f5f5;" styleClass="background" stylesheets="@../css/style.css">
+            <children>
+                <Label layoutX="256.0" layoutY="161.0" text="Register">
+                    <font>
+                        <Font name="Corbel Bold" size="30.0" />
+                    </font>
+                </Label>
+                <TextField layoutX="327.0" layoutY="230.0" prefHeight="45.0" prefWidth="172.0" promptText="Username" stylesheets="@../css/style.css" AnchorPane.rightAnchor="2.6000000000000227">
+                    <font>
+                        <Font name="Corbel" size="20.0" />
+                    </font>
+                    <styleClass>
+                        <String fx:value="textfieldPadding" />
+                        <String fx:value="shadowCurveBorder" />
+                    </styleClass>
+                </TextField>
+                <Label layoutX="203.0" layoutY="550.0" text="Already Have an Account ?">
+                    <font>
+                        <Font name="Corbel" size="15.0" />
+                    </font>
+                </Label>
+                <Hyperlink layoutX="375.0" layoutY="546.0" onAction="#gotoLoginFromRegister" styleClass="hyperlinkColor" text="Login">
+                    <font>
+                        <Font name="Corbel Bold" size="15.0" />
+                    </font>
+                </Hyperlink>
+                <PasswordField layoutX="116.0" layoutY="320.0" prefHeight="46.0" prefWidth="385.0" promptText="Password" stylesheets="@../css/style.css" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="2.6000000000000227">
+                    <font>
+                        <Font name="Corbel" size="20.0" />
+                    </font>
+                    <styleClass>
+                        <String fx:value="textfieldPadding" />
+                        <String fx:value="shadowCurveBorder" />
+                    </styleClass>
+                </PasswordField>
+                <PasswordField layoutX="117.0" layoutY="410.0" prefHeight="45.0" prefWidth="280.0" promptText="Confirm Password" stylesheets="@../css/style.css" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="2.6000000000000227">
+                    <font>
+                        <Font name="Corbel" size="20.0" />
+                    </font>
+                    <styleClass>
+                        <String fx:value="textfieldPadding" />
+                        <String fx:value="shadowCurveBorder" />
+                    </styleClass>
+                </PasswordField>
+                <Button layoutX="250.0" layoutY="490.0" mnemonicParsing="false" onAction="#gotoHomeFromRegister" stylesheets="@../css/style.css" text="   Sign up   ">
+                    <font>
+                        <Font name="Corbel Bold" size="20.0" />
+                    </font>
+                    <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="shadowCurveBorder" />
+                    </styleClass>
+                    <rotationAxis>
+                        <Point3D />
+                    </rotationAxis>
+                </Button>
+                <TextField layoutX="116.0" layoutY="230.0" prefHeight="45.0" prefWidth="175.0" promptText="Name" stylesheets="@../css/style.css" AnchorPane.leftAnchor="115.0">
+                    <font>
+                        <Font name="Corbel" size="20.0" />
+                    </font>
+                    <styleClass>
+                        <String fx:value="textfieldPadding" />
+                        <String fx:value="shadowCurveBorder" />
+                    </styleClass>
+                </TextField>
+            </children>
+        </AnchorPane>
+        <VBox layoutX="156.0" layoutY="218.0" prefHeight="720.0" prefWidth="720.0" styleClass="shape" stylesheets="@../css/style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    </children>
+</AnchorPane>
