@@ -21,7 +21,7 @@
                   <Font name="Corbel Bold" size="30.0" />
                </font>
             </Label>
-            <Button layoutX="200.0" layoutY="424.0" mnemonicParsing="false" onAction="#gotoHomeFromLogin" prefHeight="41.0" prefWidth="160.0" stylesheets="@../css/style.css" text="Log in" textAlignment="JUSTIFY" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="424.0">
+            <Button layoutX="200.0" layoutY="424.0" mnemonicParsing="false" onAction="#gotoHomeFromLogin" stylesheets="@../css/style.css" text="Log in" textAlignment="JUSTIFY" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="424.0">
                <font>
                   <Font name="Corbel Bold" size="20.0" />
                </font>
