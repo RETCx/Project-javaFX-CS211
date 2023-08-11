@@ -84,7 +84,7 @@
         <Button layoutX="265.0" layoutY="90.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 60; -fx-background-color: fbfbfb;" />
         <ImageView accessibleRole="BUTTON" fitHeight="50.0" fitWidth="200.0" layoutX="271.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../images/settings-icon-1964x2048-8nigtrtt.png" />
+                <Image url="@../images/settings.png" />
             </image>
         </ImageView>
         <Label layoutX="134.0" layoutY="500.0" text="Contact" textFill="#232323">

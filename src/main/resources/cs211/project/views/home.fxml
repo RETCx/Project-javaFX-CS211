@@ -74,7 +74,7 @@
             </TextField>
             <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="725.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/954591.png" />
+                  <Image url="@../images/search.png" />
                </image>
             </ImageView>
          </children>
