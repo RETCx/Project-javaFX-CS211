@@ -30,12 +30,12 @@
                   <String fx:value="shadowCurveBorder" />
                </styleClass>
             </Button>
-            <TextField layoutX="105.0" layoutY="271.0" prefHeight="35.0" prefWidth="350.0" promptText="Username" styleClass="shadowCurveBorder" AnchorPane.leftAnchor="105.0">
+            <TextField fx:id="userNameLabel" layoutX="105.0" layoutY="271.0" onAction="#textFieldAction" prefHeight="35.0" prefWidth="350.0" promptText="Username" styleClass="shadowCurveBorder" AnchorPane.leftAnchor="105.0">
                <font>
                   <Font name="Corbel" size="20.0" />
                </font>
             </TextField>
-            <PasswordField layoutX="105.0" layoutY="342.0" prefHeight="35.0" prefWidth="350.0" promptText="Password" styleClass="shadowCurveBorder" stylesheets="@../css/style.css" AnchorPane.leftAnchor="105.0">
+            <PasswordField fx:id="passwordLabel" layoutX="105.0" layoutY="342.0" prefHeight="35.0" prefWidth="350.0" promptText="Password" styleClass="shadowCurveBorder" stylesheets="@../css/style.css" AnchorPane.leftAnchor="105.0">
                <font>
                   <Font name="Corbel" size="20.0" />
                </font>
@@ -52,6 +52,11 @@
                <font>
                   <Font name="Corbel Bold" size="15.0" />
                </font></Hyperlink>
+            <Label fx:id="warringMessage" layoutX="175.0" layoutY="397.0" style="-fx-text-fill: red;" text="Please enter username and password!!">
+               <font>
+                  <Font name="Corbel" size="14.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
       <VBox layoutX="156.0" layoutY="218.0" prefHeight="720.0" prefWidth="720.0" styleClass="shape" stylesheets="@../css/style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
